@@ -1,6 +1,6 @@
 Application::Specification.new do |s|
   s.name       = 'TwUIExample'
-  s.identifier = 'com.isaac.TwUIExample'
+  s.identifier = 'nz.co.isaac.TwUIExample'
   s.version    = '1.0'
   s.icon       = 'resources/HotCocoa.icns'
   s.resources  = Dir.glob('resources/**/*.*')
