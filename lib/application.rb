@@ -1,5 +1,7 @@
-require 'rubygems' # disable this for a deployed application
+require 'rubygems'
 require 'hotcocoa'
+
+framework 'TwUI'
 
 class TwUIExample
   include HotCocoa
