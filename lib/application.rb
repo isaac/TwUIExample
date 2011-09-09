@@ -9,8 +9,9 @@ class TwUIExample
   def start
     application name: 'TwUIExample' do |app|
       app.delegate = self
-      window frame: [100, 100, 500, 500], title: 'TwUIExample' do |win|
-        win << label(text: 'Hello from HotCocoa', layout: {start: false})
+      frame = [ 0, 0, 500, 450 ]
+      window frame: frame, title: 'TwUIExample', minSize: [ 300, 250 ], center:true do |win|
+        win.view = TUINSView.alloc.initWithFrame frame
         win.will_close { exit }
       end
     end
