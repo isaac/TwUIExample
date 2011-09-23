@@ -1,5 +1,6 @@
 require 'rubygems'
 require 'hotcocoa'
+require 'hotcocoa/graphics'
 
 framework 'TwUI'
 
