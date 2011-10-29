@@ -6,7 +6,7 @@ class ExampleTabBar < TUIView
     self.tabViews = []
     (0..tabs - 1).to_a.each do |index|
       t = ExampleTab.alloc.initWithFrame CGRectZero
-      t.setLayout lambda { |v| CGRectZero }
+      t.layout = Proc.new { |v| CGRectZero }
       addSubview t
       tabViews << t
     end
