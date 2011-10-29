@@ -1,0 +1,7 @@
+## Installing the TwUI Framework for MacRuby
+
+git clone git://github.com/twitter/twui.git TwUI
+cd TwUI
+xcodebuild -xcconfig ../TwUIExample/TwUI.xcconfig # Assumes TwUIExample & TwUI share the same parent directory
+mkdir -p ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport
+gen_bridge_metadata -f ~/Library/Frameworks/TwUI.framework -o ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport/TwUI.bridgesupport
