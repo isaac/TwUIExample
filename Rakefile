@@ -23,4 +23,11 @@ task :clean do
   builder.remove_bundle_root
 end
 
+task :twui do
+  sh "cd ../TwUI && xcodebuild -xcconfig ../TwUIExample/TwUI.xcconfig clean"
+  sh "cd ../TwUI && xcodebuild -xcconfig ../TwUIExample/TwUI.xcconfig"
+  sh "mkdir -p ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport"
+  sh "gen_bridge_metadata -f ~/Library/Frameworks/TwUI.framework -o ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport/TwUI.bridgesupport"
+end
+
 task :default => [:run]
