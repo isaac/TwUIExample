@@ -1,0 +1,390 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6A3F1BFB145CF9ED00998712 /* ExampleSectionHeaderView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1BF6145CF9ED00998712 /* ExampleSectionHeaderView.rb */; };
+		6A3F1BFC145CF9ED00998712 /* ExampleTab.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1BF7145CF9ED00998712 /* ExampleTab.rb */; };
+		6A3F1BFD145CF9ED00998712 /* ExampleTabBar.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1BF8145CF9ED00998712 /* ExampleTabBar.rb */; };
+		6A3F1BFE145CF9ED00998712 /* ExampleTableViewCell.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1BF9145CF9ED00998712 /* ExampleTableViewCell.rb */; };
+		6A3F1BFF145CF9ED00998712 /* ExampleView.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6A3F1BFA145CF9ED00998712 /* ExampleView.rb */; };
+		6AB4A779145CBA2E002E90F4 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB4A778145CBA2E002E90F4 /* Cocoa.framework */; };
+		6AB4A77B145CBA2E002E90F4 /* MacRuby.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6AB4A77A145CBA2E002E90F4 /* MacRuby.framework */; };
+		6AB4A784145CBA2E002E90F4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6AB4A782145CBA2E002E90F4 /* InfoPlist.strings */; };
+		6AB4A786145CBA2E002E90F4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AB4A785145CBA2E002E90F4 /* main.m */; };
+		6AB4A78B145CBA2E002E90F4 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 6AB4A789145CBA2E002E90F4 /* MainMenu.xib */; };
+		6AB4A78E145CBA2E002E90F4 /* rb_main.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6AB4A78D145CBA2E002E90F4 /* rb_main.rb */; };
+		6AB4A790145CBA2E002E90F4 /* AppDelegate.rb in Resources */ = {isa = PBXBuildFile; fileRef = 6AB4A78F145CBA2E002E90F4 /* AppDelegate.rb */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6AB4A77D145CBA2E002E90F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 6AB4A76B145CBA2D002E90F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 6AB4A773145CBA2E002E90F4;
+			remoteInfo = TwUIExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		6A3F1BF6145CF9ED00998712 /* ExampleSectionHeaderView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExampleSectionHeaderView.rb; sourceTree = "<group>"; };
+		6A3F1BF7145CF9ED00998712 /* ExampleTab.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExampleTab.rb; sourceTree = "<group>"; };
+		6A3F1BF8145CF9ED00998712 /* ExampleTabBar.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExampleTabBar.rb; sourceTree = "<group>"; };
+		6A3F1BF9145CF9ED00998712 /* ExampleTableViewCell.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExampleTableViewCell.rb; sourceTree = "<group>"; };
+		6A3F1BFA145CF9ED00998712 /* ExampleView.rb */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.ruby; path = ExampleView.rb; sourceTree = "<group>"; };
+		6AB4A774145CBA2E002E90F4 /* TwUIExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwUIExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6AB4A778145CBA2E002E90F4 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		6AB4A77A145CBA2E002E90F4 /* MacRuby.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MacRuby.framework; path = Library/Frameworks/MacRuby.framework; sourceTree = DEVELOPER_DIR; };
+		6AB4A781145CBA2E002E90F4 /* TwUIExample-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TwUIExample-Info.plist"; sourceTree = "<group>"; };
+		6AB4A783145CBA2E002E90F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6AB4A785145CBA2E002E90F4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6AB4A787145CBA2E002E90F4 /* TwUIExample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TwUIExample-Prefix.pch"; sourceTree = "<group>"; };
+		6AB4A78A145CBA2E002E90F4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+		6AB4A78D145CBA2E002E90F4 /* rb_main.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = rb_main.rb; sourceTree = "<group>"; };
+		6AB4A78F145CBA2E002E90F4 /* AppDelegate.rb */ = {isa = PBXFileReference; lastKnownFileType = text.script.ruby; path = AppDelegate.rb; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6AB4A771145CBA2E002E90F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB4A779145CBA2E002E90F4 /* Cocoa.framework in Frameworks */,
+				6AB4A77B145CBA2E002E90F4 /* MacRuby.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6A3F1BF5145CF9ED00998712 /* views */ = {
+			isa = PBXGroup;
+			children = (
+				6A3F1BF6145CF9ED00998712 /* ExampleSectionHeaderView.rb */,
+				6A3F1BF7145CF9ED00998712 /* ExampleTab.rb */,
+				6A3F1BF8145CF9ED00998712 /* ExampleTabBar.rb */,
+				6A3F1BF9145CF9ED00998712 /* ExampleTableViewCell.rb */,
+				6A3F1BFA145CF9ED00998712 /* ExampleView.rb */,
+			);
+			name = views;
+			path = ../lib/views;
+			sourceTree = "<group>";
+		};
+		6AB4A769145CBA2D002E90F4 = {
+			isa = PBXGroup;
+			children = (
+				6A3F1BF5145CF9ED00998712 /* views */,
+				6AB4A77F145CBA2E002E90F4 /* TwUIExample */,
+				6AB4A777145CBA2E002E90F4 /* Frameworks */,
+				6AB4A775145CBA2E002E90F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6AB4A775145CBA2E002E90F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4A774145CBA2E002E90F4 /* TwUIExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6AB4A777145CBA2E002E90F4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4A778145CBA2E002E90F4 /* Cocoa.framework */,
+				6AB4A77A145CBA2E002E90F4 /* MacRuby.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6AB4A77F145CBA2E002E90F4 /* TwUIExample */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4A78F145CBA2E002E90F4 /* AppDelegate.rb */,
+				6AB4A788145CBA2E002E90F4 /* Resources */,
+				6AB4A78C145CBA2E002E90F4 /* Other Sources */,
+				6AB4A780145CBA2E002E90F4 /* Supporting Files */,
+			);
+			path = TwUIExample;
+			sourceTree = "<group>";
+		};
+		6AB4A780145CBA2E002E90F4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4A781145CBA2E002E90F4 /* TwUIExample-Info.plist */,
+				6AB4A782145CBA2E002E90F4 /* InfoPlist.strings */,
+				6AB4A785145CBA2E002E90F4 /* main.m */,
+				6AB4A787145CBA2E002E90F4 /* TwUIExample-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		6AB4A788145CBA2E002E90F4 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4A789145CBA2E002E90F4 /* MainMenu.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		6AB4A78C145CBA2E002E90F4 /* Other Sources */ = {
+			isa = PBXGroup;
+			children = (
+				6AB4A78D145CBA2E002E90F4 /* rb_main.rb */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXLegacyTarget section */
+		6AB4A77C145CBA2E002E90F4 /* Deployment */ = {
+			isa = PBXLegacyTarget;
+			buildArgumentsString = "--compile --embed";
+			buildConfigurationList = 6AB4A796145CBA2E002E90F4 /* Build configuration list for PBXLegacyTarget "Deployment" */;
+			buildPhases = (
+			);
+			buildToolPath = /usr/local/bin/macruby_deploy;
+			dependencies = (
+				6AB4A77E145CBA2E002E90F4 /* PBXTargetDependency */,
+			);
+			name = Deployment;
+			passBuildSettingsInEnvironment = 1;
+			productName = Deployment;
+		};
+/* End PBXLegacyTarget section */
+
+/* Begin PBXNativeTarget section */
+		6AB4A773145CBA2E002E90F4 /* TwUIExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6AB4A793145CBA2E002E90F4 /* Build configuration list for PBXNativeTarget "TwUIExample" */;
+			buildPhases = (
+				6AB4A770145CBA2E002E90F4 /* Sources */,
+				6AB4A771145CBA2E002E90F4 /* Frameworks */,
+				6AB4A772145CBA2E002E90F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TwUIExample;
+			productName = TwUIExample;
+			productReference = 6AB4A774145CBA2E002E90F4 /* TwUIExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6AB4A76B145CBA2D002E90F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 6AB4A76E145CBA2D002E90F4 /* Build configuration list for PBXProject "TwUIExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6AB4A769145CBA2D002E90F4;
+			productRefGroup = 6AB4A775145CBA2E002E90F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6AB4A773145CBA2E002E90F4 /* TwUIExample */,
+				6AB4A77C145CBA2E002E90F4 /* Deployment */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6AB4A772145CBA2E002E90F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB4A784145CBA2E002E90F4 /* InfoPlist.strings in Resources */,
+				6AB4A78B145CBA2E002E90F4 /* MainMenu.xib in Resources */,
+				6AB4A78E145CBA2E002E90F4 /* rb_main.rb in Resources */,
+				6AB4A790145CBA2E002E90F4 /* AppDelegate.rb in Resources */,
+				6A3F1BFB145CF9ED00998712 /* ExampleSectionHeaderView.rb in Resources */,
+				6A3F1BFC145CF9ED00998712 /* ExampleTab.rb in Resources */,
+				6A3F1BFD145CF9ED00998712 /* ExampleTabBar.rb in Resources */,
+				6A3F1BFE145CF9ED00998712 /* ExampleTableViewCell.rb in Resources */,
+				6A3F1BFF145CF9ED00998712 /* ExampleView.rb in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6AB4A770145CBA2E002E90F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB4A786145CBA2E002E90F4 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6AB4A77E145CBA2E002E90F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 6AB4A773145CBA2E002E90F4 /* TwUIExample */;
+			targetProxy = 6AB4A77D145CBA2E002E90F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		6AB4A782145CBA2E002E90F4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB4A783145CBA2E002E90F4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		6AB4A789145CBA2E002E90F4 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6AB4A78A145CBA2E002E90F4 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6AB4A791145CBA2E002E90F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		6AB4A792145CBA2E002E90F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		6AB4A794145CBA2E002E90F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwUIExample/TwUIExample-Prefix.pch";
+				INFOPLIST_FILE = "TwUIExample/TwUIExample-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6AB4A795145CBA2E002E90F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = x86_64;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(DEVELOPER_FRAMEWORKS_DIR)\"",
+				);
+				GCC_ENABLE_OBJC_GC = required;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "TwUIExample/TwUIExample-Prefix.pch";
+				INFOPLIST_FILE = "TwUIExample/TwUIExample-Info.plist";
+				OTHER_LDFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		6AB4A797145CBA2E002E90F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		6AB4A798145CBA2E002E90F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6AB4A76E145CBA2D002E90F4 /* Build configuration list for PBXProject "TwUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB4A791145CBA2E002E90F4 /* Debug */,
+				6AB4A792145CBA2E002E90F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB4A793145CBA2E002E90F4 /* Build configuration list for PBXNativeTarget "TwUIExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB4A794145CBA2E002E90F4 /* Debug */,
+				6AB4A795145CBA2E002E90F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6AB4A796145CBA2E002E90F4 /* Build configuration list for PBXLegacyTarget "Deployment" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6AB4A797145CBA2E002E90F4 /* Debug */,
+				6AB4A798145CBA2E002E90F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6AB4A76B145CBA2D002E90F4 /* Project object */;
+}
