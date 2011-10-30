@@ -28,7 +28,7 @@ namespace :twui do
     sh "cd ../TwUI && xcodebuild -xcconfig ../TwUIExample/TwUI.xcconfig clean"
     sh "cd ../TwUI && xcodebuild -xcconfig ../TwUIExample/TwUI.xcconfig"
     sh "mkdir -p ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport"
-    sh "gen_bridge_metadata -f ~/Library/Frameworks/TwUI.framework -o ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport/TwUI.bridgesupport --format dylib"
+    sh "gen_bridge_metadata -f ~/Library/Frameworks/TwUI.framework -o ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport/TwUI.bridgesupport"
   end
 end
 
