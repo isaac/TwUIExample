@@ -3,5 +3,4 @@
 git clone git://github.com/twitter/twui.git TwUI
 git clone git://github.com/isaac/TwUIExample.git
 cd TwUIExample
-macrake twui:build
-macrake
+macrake twui:install

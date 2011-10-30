@@ -24,7 +24,7 @@ task :clean do
 end
 
 namespace :twui do
-  task :build do
+  task :install do
     sh "cd ../TwUI && xcodebuild -xcconfig ../TwUIExample/TwUI.xcconfig clean"
     sh "cd ../TwUI && xcodebuild -xcconfig ../TwUIExample/TwUI.xcconfig"
     sh "mkdir -p ~/Library/Frameworks/TwUI.framework/Resources/BridgeSupport"
